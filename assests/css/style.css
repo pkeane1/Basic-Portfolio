@@ -1,0 +1,24 @@
+.header-right{
+    float: right;
+    background-color: white;
+    padding: 10px 0px 0px 0px;
+
+
+
+}
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    margin: 0px 225px 0px 0px;
+
+    
+
+}
+
+
+.name{
+    font-size: 25px;
+    color: white;
+    text-decoration-line: none;
+
+}
