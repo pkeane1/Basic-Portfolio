@@ -1,8 +1,12 @@
-header {
+.header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    
-  }
+    background-color:white;
+    height: 50px;
+    width: 100%;
+
+
+
+}
   
   .header a {
     float: left;
@@ -19,6 +23,7 @@ header {
     font-size: 25px;
    background-color:teal;
    color: white;
+   margin-left: 142px;
   }
   
   .header a:hover {
@@ -28,38 +33,62 @@ header {
   
   .header-right {
     float: right;
+    margin-right: 142px;
   }
   .img{
       float: left;
       width: 12%;
-      padding: 0px 20px 0px 0px;
+      padding: 0px 20px 0px 20px;
   }
 
   .wholepage{
-      width: 960px;
-      margin: 0px 100px auto;
+      width: 100%;
+      background-color: #e5e5e5;
   }
   h1{
       color: teal;
-      margin: 75px 0px 20px 0px;
-    
-      
+      margin: 75px 25px 20px 25px;
+      border-bottom:2px solid gray;
+      background-color: white;
+      margin-top: 25px;
+
+
+
 
   }
+
+.contactheader{
+    margin-bottom: 0px;
+    margin-left: 138px;
+    margin-right: 138px
+
+}
 
   p{
     line-height: 2.0;
     margin: 0px 50px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: lightslategray;
+    padding: 0px 0px 0px 25px;
 
 
   }
 
   .container{
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;}
+    background-color:white;
+    padding: 20px 5px 20px 5px;;
+    margin:0px auto;
+    width: 960px;
+
+}
+
+.container1{
+    background-color:white;
+    width: 960px;
+    margin:0px auto;
+
+}
 
     input[type=text], select, textarea {
         width: 100%;
@@ -71,6 +100,148 @@ header {
         margin-bottom: 16px;
         resize: vertical;
       }
+      input[type=submit] {
+        background-color: teal;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        
+      }
+      body{
+          background-color: #f0f0f0;
 
 
-  
+      }
+
+    .container3{
+        width: 960px;
+        background-color: white;
+        margin:0px auto;
+
+    }
+
+#position{
+    position: relative;
+}  
+ .app1 {
+     position: absolute;
+     top: 150px;
+     left: 50px;
+     background-color: teal;
+    color: white;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+ }
+
+ #position1{
+    position: relative;
+}  
+ .app2 {
+     position: absolute;
+     top: 150px;
+     left: 267px;
+     background-color: teal;
+     color: white;
+
+     padding-right: 10px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 0px;
+     margin-right: 10px;
+     margin-left: 10px;
+ 
+ }
+ #position2{
+    position: relative;
+}  
+ .app3 {
+     position: absolute;
+     top: 150px;
+     left: 50px;
+     background-color: teal;
+     color: white;
+     
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+ }
+
+ #position3{
+    position: relative;
+}  
+ .app4 {
+     position: absolute;
+     top: 150px;
+     left: 267px;
+     background-color: teal;
+     color: white;
+
+     
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+ }
+
+ #position4{
+    position: relative;
+}  
+ .app5 {
+     position: absolute;
+     top: 150px;
+     left: 50px;
+    background-color:teal;
+    color: white;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+ }
+
+ .img1{
+    width: 200px;
+    height: 200px;
+    float: left;
+ }
+
+ .img2{
+    width: 200px;
+    height: 200px;
+    padding-left: 15px;
+    
+ }
+ .img3{
+    width: 200px;
+    height: 200px;
+    float: left;
+ }
+
+ .img4{
+    width: 200px;
+    height: 200px;
+    padding-left: 15px;
+
+    
+ }
+ .img5{
+    width: 200px;
+    height: 200px;
+ }
